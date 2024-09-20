@@ -1,0 +1,423 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#navbar{
+    background-color: rgb(10, 9, 9);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    height: 60px;
+    position: sticky;
+    top: 0;
+}
+#image{
+    background-image: url(images.jpeg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 10 solid rgb( 24, 148, 197);
+    padding-left: 100px;
+    padding-top: 60px;
+    box-shadow: 2px 2px 20px rgb( 24, 148, 197);
+}
+#logo{
+    background-image: url(logo4.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 90px;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+}
+a:hover{
+    color: rgb( 24, 148, 197);
+}
+h3{
+    color:rgb(24, 148, 197);
+    font-weight: bolder;
+    font-size: large;
+    padding-top: 6px;
+}
+h2{
+    color: white;
+}
+#head{
+    display: flex;
+    justify-content: center;
+}
+#contant{
+    height: 360px;
+    padding-left: 50px;  
+    padding-top: 80px;
+    color: black;
+}
+#one{
+    font-size: large;
+}
+#two{
+    color: black;
+}
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#contact{
+    background-color: rgb(24, 148, 197);
+    color:white;
+    border-radius: 20px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#hire{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#hire:hover{
+    background-color: rgb( 24, 148, 197);
+    color:black;
+    cursor: pointer;
+    transition: 1s ease-out;
+
+}
+#contact:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: 1s ease-out;
+
+}
+#pera{
+    color: white;
+}
+.disk{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+.dis{
+    display: flex;
+    text-align: center;
+}
+#image{
+     background-image: url(image.jpg);
+     background-size: cover;
+     height: 330px;
+     width: 200px;
+     border-radius: 50%;
+     padding-right:20px ;
+     margin-top:30px ;
+     border: 4px solid rgb( 24, 148, 197);
+}
+#image:hover{
+    box-shadow: rgb( 24, 148, 197);
+}
+#section{
+    display:flex;
+    justify-content: space-evenly;
+}
+@media (max-width: 768px) {
+    .projects-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+#images{
+    background-image: url(image.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 300px;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 2px 2px 20px white;
+}
+#about{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 430px;
+    padding-top: 8%;
+    padding-right: 0px;
+}
+#services{
+
+    padding-top: 0px;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+    /* align-items: center; */
+}
+.my{
+    color: rgb( 24, 148, 197);
+    font-weight: bolder;
+    padding-top: 5px;
+}
+.more{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    padding-top:70px ;
+    margin-left: 20px;
+    border-radius: 5%;
+    border: 4px solid rgb(24, 148, 197);
+    padding-left: 20px;
+    /* justify-content: space-evenly; */
+    padding-bottom: 10px;
+}
+h4{
+    color: white;
+}
+#pge{
+    color: white;
+}
+#im{
+    background-image: url(download.jpeg);
+    background-size: cover;
+    height: 40px;
+    width: 38px;
+
+}
+#im:hover{
+    transform:rotate(360deg);
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+#im2{
+    background-image: url(D2.png);
+    background-size: cover;
+    height: 40px;
+    width: 38px;
+}
+#im2:hover{
+    transform:rotate(360deg);
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+#im3{
+    background-image: url(D3.png);
+    background-size: cover;
+    height: 40px;
+    width: 38px;
+}
+#im3:hover{
+    transform:rotate(360deg);
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+#im4{
+    background-image: url(D4.png);
+    background-size: cover;
+    height: 40px;
+    width: 38px;
+
+}
+#im4:hover{
+    transform:rotate(360deg);
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+#boxes{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#boxes:hover{
+    transform:scale(0.7);
+    transition: 1s ease;
+    cursor: pointer;
+}
+#foot{
+    background-color: black;
+    color: white;
+    height: 600px;      
+    padding-top: 50px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#icons{
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+    background-color: rgb( 24, 148, 197);
+    justify-content: center;
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-right: 7px;
+}
+#icon{
+    display: flex;
+}
+#icons:hover{
+    background-color: white;
+    cursor: pointer;
+}
+#heading{
+    display: flex;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+#form{
+    width: 100px;
+    display: inline-block;
+    padding-left: 0px;
+    padding-top: 20px;
+    margin-right: 60px;
+    color: white;
+
+}
+#form input{
+    background-color: rgb(43, 42, 42);
+    color: white;
+    padding: 24px;
+    padding-right: 85px;
+    border-radius: 10px;
+    border: 4px solid rgb( 24, 148, 197);
+    margin-bottom: 12px;
+}
+#form textarea{
+    background-color: rgb(43, 42, 42);
+    color: white;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    border: 4px solid rgb( 24, 148, 197);
+}
+footer{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    padding-top: 30px;
+}
+#aerow{
+    height: 25px ;
+    width: 25px;
+    background-color: rgb( 24, 148, 197);
+    padding-right: 8px;
+    padding-left: 6px;
+
+}
+#aerow:hover{
+    background-color: white;
+    cursor: pointer;
+}
+#project{
+    background-color: black;
+    height: 800px;
+}
+#divs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    
+}
+.pro1{
+    background-image: url(calcu.png);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 2%;
+    border: 4px solid rgb( 24, 148, 197);
+    box-shadow: 2px 2px 20px rgb( 24, 148, 197);
+    filter: drop-shadow(2px 2px 20px rgb(24,148,197));
+}
+.pro1:hover{
+    transform:rotate(360deg);
+}
+.pro2{
+    background-image: url(atm.png);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 2%;
+    border: 4px solid rgb( 24, 148, 197);
+    box-shadow: 2px 2px 20px rgb( 24, 148, 197);
+    filter: drop-shadow(2px 2px 20px rgb(24,148,197));
+
+
+}
+.pro3{
+    background-image: url(think.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border: 4px solid rgb( 24, 148, 197);
+    border-radius: 2%;
+    box-shadow: 2px 2px 20px rgb( 24, 148, 197);
+    filter: drop-shadow(2px 2px 20px rgb(24,148,197));
+
+
+}
+.pro4{
+    background-image: url(game.jpeg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border: 4px solid rgb( 24, 148, 197);
+    border-radius: 2%;
+    box-shadow: 2px 2px 20px rgb( 24, 148, 197);
+    filter: drop-shadow(2px 2px 20px rgb(24,148,197));
+
+
+}
+.pro5{
+    background-image: url(folder.jpeg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border: 4px solid rgb( 24, 148, 197);
+    border-radius: 2%;
+    box-shadow: 2px 2px 20px rgb( 24, 148, 197);
+    filter: drop-shadow(2px 2px 20px rgb(24,148,197));
+
+
+    
+}
+.pro6{
+    background-image: url(quiz.jpeg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border: 4px solid rgb( 24, 148, 197);
+    border-radius: 2%;
+    box-shadow: 2px 2px 20px rgb( 24, 148, 197);
+    filter: drop-shadow(2px 2px 20px rgb(24,148,197));
+
+
+
+}
+#six{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 70px;
+}
+#prop{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 70px;
+}
+a{
+    margin-left:10px ;
+}
+
+
+
